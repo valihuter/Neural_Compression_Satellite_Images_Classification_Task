@@ -1,0 +1,104 @@
+{
+  "codec": "jpeg2000",
+  "standard": "ISO/IEC 15444-1",
+  "type": "Traditional (DWT)",
+  "baseline_accuracy": 97.65432098765432,
+  "quality_levels": {
+    "q1": {
+      "accuracy": 14.02,
+      "measured_bpp": 0.1,
+      "class_accuracies": {
+        "AnnualCrop": 24.89,
+        "Forest": 0.0,
+        "HerbaceousVegetation": 1.33,
+        "Highway": 0.0,
+        "Industrial": 0.0,
+        "Pasture": 0.0,
+        "PermanentCrop": 0.0,
+        "Residential": 0.0,
+        "River": 0.0,
+        "SeaLake": 100.0
+      }
+    },
+    "q2": {
+      "accuracy": 17.88,
+      "measured_bpp": 0.15,
+      "class_accuracies": {
+        "AnnualCrop": 44.0,
+        "Forest": 0.0,
+        "HerbaceousVegetation": 2.22,
+        "Highway": 0.0,
+        "Industrial": 17.07,
+        "Pasture": 0.0,
+        "PermanentCrop": 0.27,
+        "Residential": 0.0,
+        "River": 0.27,
+        "SeaLake": 100.0
+      }
+    },
+    "q3": {
+      "accuracy": 41.09,
+      "measured_bpp": 0.25,
+      "class_accuracies": {
+        "AnnualCrop": 82.0,
+        "Forest": 0.0,
+        "HerbaceousVegetation": 12.22,
+        "Highway": 33.07,
+        "Industrial": 97.33,
+        "Pasture": 0.67,
+        "PermanentCrop": 28.0,
+        "Residential": 29.78,
+        "River": 16.27,
+        "SeaLake": 99.78
+      }
+    },
+    "q4": {
+      "accuracy": 84.86,
+      "measured_bpp": 0.4,
+      "class_accuracies": {
+        "AnnualCrop": 95.33,
+        "Forest": 12.22,
+        "HerbaceousVegetation": 90.89,
+        "Highway": 94.4,
+        "Industrial": 99.47,
+        "Pasture": 80.33,
+        "PermanentCrop": 89.33,
+        "Residential": 98.67,
+        "River": 92.8,
+        "SeaLake": 99.78
+      }
+    },
+    "q5": {
+      "accuracy": 97.73,
+      "measured_bpp": 0.7,
+      "class_accuracies": {
+        "AnnualCrop": 97.78,
+        "Forest": 98.89,
+        "HerbaceousVegetation": 96.22,
+        "Highway": 96.0,
+        "Industrial": 98.67,
+        "Pasture": 97.33,
+        "PermanentCrop": 95.2,
+        "Residential": 99.33,
+        "River": 98.13,
+        "SeaLake": 99.11
+      }
+    },
+    "q6": {
+      "accuracy": 97.65,
+      "measured_bpp": 0.97,
+      "class_accuracies": {
+        "AnnualCrop": 97.78,
+        "Forest": 98.89,
+        "HerbaceousVegetation": 96.0,
+        "Highway": 96.0,
+        "Industrial": 98.93,
+        "Pasture": 97.0,
+        "PermanentCrop": 95.47,
+        "Residential": 98.89,
+        "River": 97.87,
+        "SeaLake": 99.11
+      }
+    }
+  }
+}

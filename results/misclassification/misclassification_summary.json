@@ -1,0 +1,34 @@
+{
+  "total_miscompressions": 16376,
+  "by_model": {
+    "ResNet-18": 7458,
+    "ViT-S/16": 8918
+  },
+  "by_codec": {
+    "cheng2020-attn": 3485,
+    "msillm": 6015,
+    "jpeg_ai": 6876
+  },
+  "top_confusions": {
+    "Forest -> SeaLake": 3077,
+    "Residential -> HerbaceousVegetation": 1871,
+    "PermanentCrop -> HerbaceousVegetation": 1336,
+    "Forest -> HerbaceousVegetation": 1147,
+    "Residential -> Industrial": 950,
+    "Pasture -> HerbaceousVegetation": 890,
+    "Pasture -> SeaLake": 726,
+    "Highway -> HerbaceousVegetation": 578,
+    "Forest -> Pasture": 540,
+    "River -> HerbaceousVegetation": 426,
+    "HerbaceousVegetation -> SeaLake": 281,
+    "Highway -> River": 273,
+    "River -> Highway": 269,
+    "PermanentCrop -> AnnualCrop": 246,
+    "Pasture -> Forest": 241,
+    "HerbaceousVegetation -> PermanentCrop": 218,
+    "Highway -> Industrial": 212,
+    "River -> SeaLake": 207,
+    "Highway -> PermanentCrop": 192,
+    "AnnualCrop -> SeaLake": 191
+  }
+}

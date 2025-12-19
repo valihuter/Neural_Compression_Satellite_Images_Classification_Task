@@ -1,0 +1,10 @@
+Image: AnnualCrop_2692
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: SeaLake
+Original Confidence: 0.9995
+Compressed Confidence: 0.6555
+Confidence Drop: 0.3440

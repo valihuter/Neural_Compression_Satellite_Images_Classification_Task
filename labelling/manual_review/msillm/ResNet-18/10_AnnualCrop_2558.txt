@@ -1,0 +1,10 @@
+Image: AnnualCrop_2558
+Model: ResNet-18
+Codec: msillm
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9175
+Compressed Confidence: 0.4923
+Confidence Drop: 0.4252

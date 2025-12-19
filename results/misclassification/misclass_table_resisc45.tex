@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+    \centering
+    \caption{RESISC45: Misclassification statistics by codec and quality level (both models combined, 7,700 images).}
+    \label{tab:app-misclass-resisc45}
+    \tiny
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        \textbf{Codec / Quality} & \textbf{q1} & \textbf{q2} & \textbf{q3} & \textbf{q4} & \textbf{q5} & \textbf{q6} \\
+        \midrule
+        JPEG & 825 & 64 & 6 & 1 & -1 & 2 \\
+        \quad \textit{$\Delta$ Acc} & 5.4\% & 0.4\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% \\
+        \midrule
+        JPEG2000 & 707 & 338 & 145 & 51 & 8 & 9 \\
+        \quad \textit{$\Delta$ Acc} & 4.6\% & 2.2\% & 0.9\% & 0.3\% & 0.1\% & 0.1\% \\
+        \midrule
+        Cheng2020-attn & 1,867 & 1,108 & 563 & 191 & 70 & 27 \\
+        \quad \textit{$\Delta$ Acc} & 12.1\% & 7.2\% & 3.7\% & 1.2\% & 0.5\% & 0.2\% \\
+        \midrule
+        MS-ILLM & 530 & 183 & 67 & 38 & 19 & 8 \\
+        \quad \textit{$\Delta$ Acc} & 3.4\% & 1.2\% & 0.4\% & 0.3\% & 0.1\% & 0.1\% \\
+        \midrule
+        JPEG-AI & 969 & 364 & 102 & 52 & 23 & 4 \\
+        \quad \textit{$\Delta$ Acc} & 6.3\% & 2.4\% & 0.7\% & 0.3\% & 0.2\% & 0.0\% \\
+        \bottomrule
+    \end{tabular}
+\end{table}

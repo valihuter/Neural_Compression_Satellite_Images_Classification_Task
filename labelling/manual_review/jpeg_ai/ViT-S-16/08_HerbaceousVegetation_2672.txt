@@ -1,0 +1,10 @@
+Image: HerbaceousVegetation_2672
+Model: ViT-S/16
+Codec: jpeg_ai
+Quality: q6
+True Class: HerbaceousVegetation
+Original Prediction: HerbaceousVegetation
+Compressed Prediction: SeaLake
+Original Confidence: 0.9988
+Compressed Confidence: 0.4182
+Confidence Drop: 0.5806

@@ -1,0 +1,10 @@
+Image: Forest_2799
+Model: ResNet-18
+Codec: cheng2020-attn
+Quality: q6
+True Class: Forest
+Original Prediction: Forest
+Compressed Prediction: SeaLake
+Original Confidence: 0.9998
+Compressed Confidence: 0.4757
+Confidence Drop: 0.5241

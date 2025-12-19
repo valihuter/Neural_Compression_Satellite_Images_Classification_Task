@@ -1,0 +1,99 @@
+sequence,filename,quality,codec,true_class,original_pred,compressed_pred,original_confidence,compressed_confidence,models_affected
+1,AnnualCrop/AnnualCrop_1525.jpg,q6,msillm,AnnualCrop,AnnualCrop,Pasture,0.9952344298362732,0.8092275261878967,"ResNet-18, ViT-S/16"
+2,AnnualCrop/AnnualCrop_1704.jpg,q6,msillm,AnnualCrop,AnnualCrop,PermanentCrop,0.9987922310829164,0.671643078327179,ViT-S/16
+3,AnnualCrop/AnnualCrop_2154.jpg,q6,msillm,AnnualCrop,AnnualCrop,PermanentCrop,0.7572647929191589,0.8075661659240723,ResNet-18
+4,AnnualCrop/AnnualCrop_2487.jpg,q6,msillm,AnnualCrop,AnnualCrop,SeaLake,0.9982319474220276,0.9847914576530457,ViT-S/16
+5,AnnualCrop/AnnualCrop_2558.jpg,q6,msillm,AnnualCrop,AnnualCrop,HerbaceousVegetation,0.9175390601158142,0.4922911524772644,ResNet-18
+6,AnnualCrop/AnnualCrop_2692.jpg,q6,msillm,AnnualCrop,AnnualCrop,SeaLake,0.999524712562561,0.6555215716362,ViT-S/16
+7,AnnualCrop/AnnualCrop_2750.jpg,q6,msillm,AnnualCrop,AnnualCrop,Pasture,0.9995554089546204,0.7960319519042969,"ResNet-18, ViT-S/16"
+8,AnnualCrop/AnnualCrop_2852.jpg,q6,msillm,AnnualCrop,AnnualCrop,PermanentCrop,0.9994300007820128,0.8880385160446167,ViT-S/16
+9,AnnualCrop/AnnualCrop_2998.jpg,q6,msillm,AnnualCrop,AnnualCrop,Pasture,0.9984704852104188,0.8469115495681763,"ResNet-18, ViT-S/16"
+10,AnnualCrop/AnnualCrop_886.jpg,q6,msillm,AnnualCrop,AnnualCrop,PermanentCrop,0.9689255952835084,0.8898614048957825,ViT-S/16
+11,AnnualCrop/AnnualCrop_96.jpg,q6,msillm,AnnualCrop,AnnualCrop,Pasture,0.9443779587745668,0.7598729133605957,ViT-S/16
+12,Forest/Forest_2043.jpg,q6,msillm,Forest,Forest,HerbaceousVegetation,0.9991990923881532,0.5447401404380798,ViT-S/16
+13,Forest/Forest_2174.jpg,q6,msillm,Forest,Forest,HerbaceousVegetation,0.9971326589584352,0.9840802550315856,ViT-S/16
+14,Forest/Forest_332.jpg,q6,msillm,Forest,Forest,SeaLake,0.9999678134918212,0.7064058184623718,ViT-S/16
+15,Forest/Forest_602.jpg,q6,msillm,Forest,Forest,Pasture,0.9985975623130798,0.9351395964622498,ViT-S/16
+16,HerbaceousVegetation/HerbaceousVegetation_1029.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.9306132197380066,0.8200216293334961,ResNet-18
+17,HerbaceousVegetation/HerbaceousVegetation_1721.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.6023606657981873,0.480923444032669,ResNet-18
+18,HerbaceousVegetation/HerbaceousVegetation_1795.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.8724566698074341,0.8333677649497986,ResNet-18
+19,HerbaceousVegetation/HerbaceousVegetation_2110.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,Pasture,0.9985901713371276,0.9327616095542908,"ResNet-18, ViT-S/16"
+20,HerbaceousVegetation/HerbaceousVegetation_2296.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.6777294874191284,0.5510103106498718,ResNet-18
+21,HerbaceousVegetation/HerbaceousVegetation_309.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.7034343481063843,0.5672866106033325,ResNet-18
+22,HerbaceousVegetation/HerbaceousVegetation_357.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.788264811038971,0.6450748443603516,ResNet-18
+23,HerbaceousVegetation/HerbaceousVegetation_57.jpg,q6,msillm,HerbaceousVegetation,HerbaceousVegetation,PermanentCrop,0.9943060278892516,0.861428439617157,ViT-S/16
+24,Highway/Highway_1097.jpg,q6,msillm,Highway,Highway,Industrial,0.9999455213546752,0.9863376021385192,"ResNet-18, ViT-S/16"
+25,Highway/Highway_1107.jpg,q6,msillm,Highway,Highway,Industrial,0.9999754428863524,0.6321161985397339,ViT-S/16
+26,Highway/Highway_1164.jpg,q6,msillm,Highway,Highway,Industrial,0.9999593496322632,0.9651057124137878,ViT-S/16
+27,Highway/Highway_1255.jpg,q6,msillm,Highway,Highway,Industrial,0.967269480228424,0.9400393962860109,ViT-S/16
+28,Highway/Highway_1429.jpg,q6,msillm,Highway,Highway,River,0.9996931552886964,0.8355474472045898,ViT-S/16
+29,Highway/Highway_1777.jpg,q6,msillm,Highway,Highway,AnnualCrop,0.9347893595695496,0.6468448638916016,ResNet-18
+30,Highway/Highway_2044.jpg,q6,msillm,Highway,Highway,Industrial,0.9861099123954772,0.7702808380126953,ViT-S/16
+31,Highway/Highway_2088.jpg,q6,msillm,Highway,Highway,River,0.9622766375541688,0.71176677942276,ResNet-18
+32,Highway/Highway_2118.jpg,q6,msillm,Highway,Highway,PermanentCrop,0.9997403025627136,0.9996230602264404,ViT-S/16
+33,Highway/Highway_219.jpg,q6,msillm,Highway,Highway,PermanentCrop,0.9999374151229858,0.7007180452346802,ViT-S/16
+34,Highway/Highway_257.jpg,q6,msillm,Highway,Highway,PermanentCrop,0.9983763694763184,0.5926773548126221,ResNet-18
+35,Highway/Highway_39.jpg,q6,msillm,Highway,Highway,River,0.6497797966003418,0.894624650478363,ResNet-18
+36,Highway/Highway_444.jpg,q6,msillm,Highway,Highway,River,0.8811643719673157,0.3673008978366852,ResNet-18
+37,Highway/Highway_610.jpg,q6,msillm,Highway,Highway,River,0.9955366849899292,0.655987560749054,ResNet-18
+38,Highway/Highway_987.jpg,q6,msillm,Highway,Highway,Industrial,0.998445212841034,0.7382206320762634,ViT-S/16
+39,Industrial/Industrial_1991.jpg,q6,msillm,Industrial,Industrial,HerbaceousVegetation,0.8825111389160156,0.7104982733726501,ResNet-18
+40,Industrial/Industrial_2090.jpg,q6,msillm,Industrial,Industrial,Residential,0.9487995505332948,0.7508329749107361,ViT-S/16
+41,Industrial/Industrial_2480.jpg,q6,msillm,Industrial,Industrial,Residential,0.9997373223304749,0.9968600273132324,"ResNet-18, ViT-S/16"
+42,Industrial/Industrial_878.jpg,q6,msillm,Industrial,Industrial,Residential,0.9992327690124512,0.950532615184784,"ResNet-18, ViT-S/16"
+43,Pasture/Pasture_1063.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.82643061876297,0.5257893204689026,ResNet-18
+44,Pasture/Pasture_1184.jpg,q6,msillm,Pasture,Pasture,Forest,0.8147687315940857,0.9110226035118104,ResNet-18
+45,Pasture/Pasture_1194.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9478553533554076,0.493836909532547,ResNet-18
+46,Pasture/Pasture_1197.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.999502658843994,0.9974339604377748,ViT-S/16
+47,Pasture/Pasture_1212.jpg,q6,msillm,Pasture,Pasture,AnnualCrop,0.999847412109375,0.5682483911514282,ViT-S/16
+48,Pasture/Pasture_1250.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.8943380117416382,0.7348306179046631,ResNet-18
+49,Pasture/Pasture_1271.jpg,q6,msillm,Pasture,Pasture,Forest,0.9996936321258544,0.9972954392433168,ViT-S/16
+50,Pasture/Pasture_1327.jpg,q6,msillm,Pasture,Pasture,Forest,0.9990505576133728,0.9950891137123108,ViT-S/16
+51,Pasture/Pasture_1425.jpg,q6,msillm,Pasture,Pasture,Forest,0.4901740252971649,0.9705467224121094,ResNet-18
+52,Pasture/Pasture_1479.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9511778950691224,0.9000900387763977,ViT-S/16
+53,Pasture/Pasture_1511.jpg,q6,msillm,Pasture,Pasture,Forest,0.9819155931472778,0.9806077480316162,ResNet-18
+54,Pasture/Pasture_1577.jpg,q6,msillm,Pasture,Pasture,PermanentCrop,0.9915067553520204,0.9337786436080932,ResNet-18
+55,Pasture/Pasture_168.jpg,q6,msillm,Pasture,Pasture,Forest,0.9998133778572084,0.9815647006034852,"ResNet-18, ViT-S/16"
+56,Pasture/Pasture_1680.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9989181756973268,0.8442954421043396,ResNet-18
+57,Pasture/Pasture_1792.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9953807592391968,0.5511812567710876,ResNet-18
+58,Pasture/Pasture_1865.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9942036271095276,0.5030170679092407,ResNet-18
+59,Pasture/Pasture_292.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9989755153656006,0.998932421207428,"ResNet-18, ViT-S/16"
+60,Pasture/Pasture_354.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9868647456169128,0.4031682908535003,ResNet-18
+61,Pasture/Pasture_550.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.5362537503242493,0.9250419735908508,ResNet-18
+62,Pasture/Pasture_58.jpg,q6,msillm,Pasture,Pasture,Forest,0.9803144931793212,0.5515872836112976,ResNet-18
+63,Pasture/Pasture_609.jpg,q6,msillm,Pasture,Pasture,PermanentCrop,0.8725752830505371,0.7195481061935425,ResNet-18
+64,Pasture/Pasture_623.jpg,q6,msillm,Pasture,Pasture,Forest,0.9990997314453124,0.9481587409973145,"ResNet-18, ViT-S/16"
+65,Pasture/Pasture_699.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.7613751888275146,0.8004897832870483,ResNet-18
+66,Pasture/Pasture_722.jpg,q6,msillm,Pasture,Pasture,AnnualCrop,0.7159355878829956,0.5466015934944153,ResNet-18
+67,Pasture/Pasture_85.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9628162980079652,0.5069800615310669,ResNet-18
+68,Pasture/Pasture_857.jpg,q6,msillm,Pasture,Pasture,AnnualCrop,0.5413005948066711,0.8617646098136902,ResNet-18
+69,Pasture/Pasture_890.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9972942471504213,0.6173628568649292,ViT-S/16
+70,Pasture/Pasture_957.jpg,q6,msillm,Pasture,Pasture,HerbaceousVegetation,0.9960024952888488,0.6582022309303284,ViT-S/16
+71,PermanentCrop/PermanentCrop_1040.jpg,q6,msillm,PermanentCrop,PermanentCrop,AnnualCrop,0.5261795520782471,0.8974545001983643,ResNet-18
+72,PermanentCrop/PermanentCrop_1099.jpg,q6,msillm,PermanentCrop,PermanentCrop,Pasture,0.9999603033065796,0.5439772605895996,ViT-S/16
+73,PermanentCrop/PermanentCrop_1303.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9971062541007996,0.704288125038147,ResNet-18
+74,PermanentCrop/PermanentCrop_1338.jpg,q6,msillm,PermanentCrop,PermanentCrop,Highway,0.9115439653396606,0.7757679224014282,ResNet-18
+75,PermanentCrop/PermanentCrop_1377.jpg,q6,msillm,PermanentCrop,PermanentCrop,AnnualCrop,0.6365360617637634,0.6221415996551514,ResNet-18
+76,PermanentCrop/PermanentCrop_168.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9990028738975524,0.8504320383071899,ViT-S/16
+77,PermanentCrop/PermanentCrop_2028.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9999719858169556,0.86952143907547,"ResNet-18, ViT-S/16"
+78,PermanentCrop/PermanentCrop_2103.jpg,q6,msillm,PermanentCrop,PermanentCrop,AnnualCrop,0.7827550768852234,0.9001297354698181,ResNet-18
+79,PermanentCrop/PermanentCrop_342.jpg,q6,msillm,PermanentCrop,PermanentCrop,AnnualCrop,0.9998252987861632,0.7136029005050659,ViT-S/16
+80,PermanentCrop/PermanentCrop_365.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9986454844474792,0.9020676016807556,ViT-S/16
+81,PermanentCrop/PermanentCrop_37.jpg,q6,msillm,PermanentCrop,PermanentCrop,AnnualCrop,0.946800410747528,0.8809087872505188,ResNet-18
+82,PermanentCrop/PermanentCrop_545.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.999957799911499,0.9735344052314758,"ResNet-18, ViT-S/16"
+83,PermanentCrop/PermanentCrop_547.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.7629046440124512,0.6708421111106873,ResNet-18
+84,PermanentCrop/PermanentCrop_672.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9972232580184937,0.9994255304336548,ViT-S/16
+85,PermanentCrop/PermanentCrop_686.jpg,q6,msillm,PermanentCrop,PermanentCrop,Forest,0.8856860399246216,0.3488984107971191,ResNet-18
+86,PermanentCrop/PermanentCrop_739.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9999339580535888,0.7059785723686218,ViT-S/16
+87,PermanentCrop/PermanentCrop_742.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9998419284820556,0.6465145945549011,"ResNet-18, ViT-S/16"
+88,PermanentCrop/PermanentCrop_751.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9999452829360962,0.8775509595870972,ViT-S/16
+89,PermanentCrop/PermanentCrop_924.jpg,q6,msillm,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.4405816197395324,0.7625325918197632,ResNet-18
+90,Residential/Residential_2368.jpg,q6,msillm,Residential,Residential,HerbaceousVegetation,0.765024721622467,0.8550807237625122,ViT-S/16
+91,River/River_1026.jpg,q6,msillm,River,River,Highway,0.8560490608215332,0.8889147043228149,ResNet-18
+92,River/River_1110.jpg,q6,msillm,River,River,AnnualCrop,0.9227774143218994,0.8404144644737244,ResNet-18
+93,River/River_1708.jpg,q6,msillm,River,River,Highway,0.9946095943450928,0.8201975226402283,ViT-S/16
+94,River/River_2281.jpg,q6,msillm,River,River,Highway,0.9984410405158995,0.9479538798332214,ViT-S/16
+95,River/River_254.jpg,q6,msillm,River,River,Highway,0.920050084590912,0.7391637563705444,ResNet-18
+96,River/River_680.jpg,q6,msillm,River,River,HerbaceousVegetation,0.999314546585083,0.8231969475746155,ViT-S/16
+97,River/River_702.jpg,q6,msillm,River,River,Highway,0.9987518787384032,0.5888087749481201,ResNet-18
+98,SeaLake/SeaLake_2208.jpg,q6,msillm,SeaLake,SeaLake,Forest,0.9798800349235536,0.8356177806854248,ResNet-18

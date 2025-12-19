@@ -1,0 +1,10 @@
+Image: Pasture_85
+Model: ResNet-18
+Codec: msillm
+Quality: q6
+True Class: Pasture
+Original Prediction: Pasture
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9628
+Compressed Confidence: 0.5070
+Confidence Drop: 0.4558

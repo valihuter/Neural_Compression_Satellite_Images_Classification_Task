@@ -1,0 +1,91 @@
+sequence,filename,quality,codec,true_class,original_pred,compressed_pred,original_confidence,compressed_confidence,models_affected
+1,Forest/Forest_2476.jpg,q6,cheng2020-attn,Forest,Forest,"Pasture, SeaLake",0.9999991655349731,0.9978848099708556,"ResNet-18, ViT-S/16"
+2,Pasture/Pasture_1479.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9511778950691224,0.9222943186759948,ViT-S/16
+3,Forest/Forest_2382.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999833106994628,0.9997633099555968,"ResNet-18, ViT-S/16"
+4,Forest/Forest_270.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999690055847168,0.9999994039535522,"ResNet-18, ViT-S/16"
+5,Highway/Highway_2114.jpg,q6,cheng2020-attn,Highway,Highway,SeaLake,0.9999709129333496,0.998378038406372,ViT-S/16
+6,River/River_2285.jpg,q6,cheng2020-attn,River,River,AnnualCrop,0.9969083666801452,0.732388973236084,ResNet-18
+7,Forest/Forest_2212.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999976396560669,0.9999929666519164,"ResNet-18, ViT-S/16"
+8,Forest/Forest_2754.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999511241912842,0.9999997615814208,"ResNet-18, ViT-S/16"
+9,Forest/Forest_937.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999998807907104,0.9999984502792358,"ResNet-18, ViT-S/16"
+10,Forest/Forest_825.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999529123306274,0.9999610185623168,"ResNet-18, ViT-S/16"
+11,Forest/Forest_1419.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999735355377196,0.9999955892562866,"ResNet-18, ViT-S/16"
+12,Forest/Forest_2401.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999964237213136,1.0,"ResNet-18, ViT-S/16"
+13,Forest/Forest_981.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999551773071288,0.9999516010284424,"ResNet-18, ViT-S/16"
+14,River/River_427.jpg,q6,cheng2020-attn,River,River,SeaLake,0.9999402761459352,0.983424961566925,ViT-S/16
+15,Forest/Forest_2558.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999457597732544,0.9999734163284302,"ResNet-18, ViT-S/16"
+16,Residential/Residential_202.jpg,q6,cheng2020-attn,Residential,Residential,River,0.9996908903121948,0.6402741074562073,ResNet-18
+17,Forest/Forest_963.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999981164932251,0.9998972415924072,"ResNet-18, ViT-S/16"
+18,Forest/Forest_1686.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999616146087646,0.9999749660491944,"ResNet-18, ViT-S/16"
+19,Forest/Forest_2979.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999610185623168,1.0,"ResNet-18, ViT-S/16"
+20,Highway/Highway_1596.jpg,q6,cheng2020-attn,Highway,Highway,SeaLake,0.999445617198944,0.4313594698905945,ViT-S/16
+21,Forest/Forest_1907.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999783039093018,1.0,"ResNet-18, ViT-S/16"
+22,Forest/Forest_1422.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999536275863647,0.999998927116394,"ResNet-18, ViT-S/16"
+23,Pasture/Pasture_1639.jpg,q6,cheng2020-attn,Pasture,Pasture,"AnnualCrop, SeaLake",0.9998499155044556,0.7962809205055237,"ResNet-18, ViT-S/16"
+24,Forest/Forest_420.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999980926513672,0.9999969005584716,"ResNet-18, ViT-S/16"
+25,Forest/Forest_1277.jpg,q6,cheng2020-attn,Forest,Forest,"Pasture, SeaLake",0.9999982118606568,0.9965805411338806,"ResNet-18, ViT-S/16"
+26,Forest/Forest_1196.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999781847000122,0.9999923706054688,"ResNet-18, ViT-S/16"
+27,PermanentCrop/PermanentCrop_907.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,Pasture,0.9984076619148254,0.7335070371627808,ResNet-18
+28,Forest/Forest_2283.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999713897705078,0.9999991655349731,"ResNet-18, ViT-S/16"
+29,Forest/Forest_2291.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9991790652275084,0.999149203300476,ViT-S/16
+30,Forest/Forest_150.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9997941851615906,0.9996718168258668,"ResNet-18, ViT-S/16"
+31,Pasture/Pasture_722.jpg,q6,cheng2020-attn,Pasture,Pasture,AnnualCrop,0.9990586638450624,0.950398087501526,"ResNet-18, ViT-S/16"
+32,Pasture/Pasture_547.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999229907989502,0.9993804693222046,"ResNet-18, ViT-S/16"
+33,Residential/Residential_685.jpg,q6,cheng2020-attn,Residential,Residential,Industrial,0.9974634647369384,0.7931410074234009,ResNet-18
+34,PermanentCrop/PermanentCrop_760.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,AnnualCrop,0.9999942779541016,0.934800624847412,"ResNet-18, ViT-S/16"
+35,PermanentCrop/PermanentCrop_2327.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,AnnualCrop,0.9999659061431884,0.9711959362030028,"ResNet-18, ViT-S/16"
+36,Forest/Forest_1111.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999949932098388,0.9999998807907104,"ResNet-18, ViT-S/16"
+37,Forest/Forest_40.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.99998939037323,0.999915361404419,"ResNet-18, ViT-S/16"
+38,Highway/Highway_2320.jpg,q6,cheng2020-attn,Highway,Highway,SeaLake,0.9999902248382568,0.999566614627838,"ResNet-18, ViT-S/16"
+39,Forest/Forest_1400.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999263286590576,0.99992573261261,"ResNet-18, ViT-S/16"
+40,Forest/Forest_2189.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999004602432252,0.999915361404419,"ResNet-18, ViT-S/16"
+41,Forest/Forest_1418.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9998881816864014,0.9998086094856262,"ResNet-18, ViT-S/16"
+42,PermanentCrop/PermanentCrop_342.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,AnnualCrop,0.9998252987861632,0.999881386756897,"ResNet-18, ViT-S/16"
+43,PermanentCrop/PermanentCrop_739.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,Pasture,0.9999339580535888,0.4401124715805053,ViT-S/16
+44,Forest/Forest_1894.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999963402748108,0.9999988079071044,"ResNet-18, ViT-S/16"
+45,HerbaceousVegetation/HerbaceousVegetation_1817.jpg,q6,cheng2020-attn,HerbaceousVegetation,HerbaceousVegetation,SeaLake,0.998468577861786,0.999884843826294,ViT-S/16
+46,Forest/Forest_2302.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999717473983764,0.9999998807907104,"ResNet-18, ViT-S/16"
+47,Highway/Highway_1570.jpg,q6,cheng2020-attn,Highway,Highway,River,0.9993962049484252,0.7646980285644531,"ResNet-18, ViT-S/16"
+48,River/River_2059.jpg,q6,cheng2020-attn,River,River,SeaLake,0.9999833106994628,0.8218842148780823,ResNet-18
+49,Forest/Forest_66.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999804496765136,0.9999499320983888,"ResNet-18, ViT-S/16"
+50,Pasture/Pasture_1212.jpg,q6,cheng2020-attn,Pasture,Pasture,AnnualCrop,0.999847412109375,0.9976633787155152,ViT-S/16
+51,PermanentCrop/PermanentCrop_1179.jpg,q6,cheng2020-attn,PermanentCrop,PermanentCrop,HerbaceousVegetation,0.9988694787025452,0.7164605855941772,ViT-S/16
+52,Forest/Forest_747.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999624490737916,0.9999997615814208,"ResNet-18, ViT-S/16"
+53,Pasture/Pasture_1510.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.999991536140442,0.9830316305160522,ViT-S/16
+54,Pasture/Pasture_904.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999443292617798,0.9945489764213562,ViT-S/16
+55,Pasture/Pasture_1194.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9998670816421508,0.936732053756714,"ResNet-18, ViT-S/16"
+56,Forest/Forest_838.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999943971633912,0.9999881982803344,"ResNet-18, ViT-S/16"
+57,Pasture/Pasture_267.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999749660491944,0.9983793497085572,"ResNet-18, ViT-S/16"
+58,Forest/Forest_1522.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999098300933838,0.9995859265327454,"ResNet-18, ViT-S/16"
+59,Pasture/Pasture_1327.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9990505576133728,0.999848246574402,ViT-S/16
+60,Highway/Highway_840.jpg,q6,cheng2020-attn,Highway,Highway,SeaLake,0.999986171722412,0.639358639717102,ViT-S/16
+61,Pasture/Pasture_825.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9998847246170044,0.878372848033905,ViT-S/16
+62,Pasture/Pasture_250.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9994961023330688,0.9911210536956788,"ResNet-18, ViT-S/16"
+63,Forest/Forest_1760.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999817609786988,0.9900147914886476,"ResNet-18, ViT-S/16"
+64,Forest/Forest_2102.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999619722366332,0.9998979568481444,"ResNet-18, ViT-S/16"
+65,Residential/Residential_678.jpg,q6,cheng2020-attn,Residential,Residential,Industrial,0.9995611310005188,0.5340582728385925,ViT-S/16
+66,Forest/Forest_2075.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999769926071168,1.0,"ResNet-18, ViT-S/16"
+67,Forest/Forest_2678.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999337196350098,0.9999265670776368,"ResNet-18, ViT-S/16"
+68,Forest/Forest_1329.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999758005142212,0.9999996423721312,"ResNet-18, ViT-S/16"
+69,Forest/Forest_1614.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999980926513672,0.9998326301574708,"ResNet-18, ViT-S/16"
+70,Forest/Forest_2010.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999885559082032,1.0,"ResNet-18, ViT-S/16"
+71,Pasture/Pasture_857.jpg,q6,cheng2020-attn,Pasture,Pasture,AnnualCrop,0.9999548196792604,0.994895040988922,"ResNet-18, ViT-S/16"
+72,HerbaceousVegetation/HerbaceousVegetation_2771.jpg,q6,cheng2020-attn,HerbaceousVegetation,HerbaceousVegetation,SeaLake,0.9999815225601196,0.9075640439987184,ViT-S/16
+73,Pasture/Pasture_1518.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999552965164183,0.5628309845924377,ViT-S/16
+74,River/River_401.jpg,q6,cheng2020-attn,River,River,SeaLake,0.9999862909317015,0.665595531463623,ViT-S/16
+75,Forest/Forest_1229.jpg,q6,cheng2020-attn,Forest,Forest,HerbaceousVegetation,0.8565987944602966,0.9963335990905762,ResNet-18
+76,Forest/Forest_1216.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999855756759644,0.9999256134033204,"ResNet-18, ViT-S/16"
+77,Residential/Residential_2549.jpg,q6,cheng2020-attn,Residential,Residential,PermanentCrop,0.8177961707115173,0.4476781189441681,ResNet-18
+78,Forest/Forest_2635.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.999968409538269,0.9996991157531738,"ResNet-18, ViT-S/16"
+79,Pasture/Pasture_594.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999449253082277,0.9248034358024596,ViT-S/16
+80,Forest/Forest_571.jpg,q6,cheng2020-attn,Forest,Forest,"Pasture, SeaLake",0.9999611377716064,0.9944403767585754,"ResNet-18, ViT-S/16"
+81,Forest/Forest_2296.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999572038650512,0.9999996423721312,"ResNet-18, ViT-S/16"
+82,Forest/Forest_870.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9998773336410522,0.9999998807907104,"ResNet-18, ViT-S/16"
+83,River/River_2406.jpg,q6,cheng2020-attn,River,River,SeaLake,0.9999499320983888,0.9996045231819152,"ResNet-18, ViT-S/16"
+84,Forest/Forest_1466.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999662637710572,0.9997121691703796,"ResNet-18, ViT-S/16"
+85,Forest/Forest_1499.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999266862869264,0.9983928799629213,"ResNet-18, ViT-S/16"
+86,HerbaceousVegetation/HerbaceousVegetation_2753.jpg,q6,cheng2020-attn,HerbaceousVegetation,HerbaceousVegetation,SeaLake,0.9992831349372864,0.9952622652053832,"ResNet-18, ViT-S/16"
+87,HerbaceousVegetation/HerbaceousVegetation_730.jpg,q6,cheng2020-attn,HerbaceousVegetation,HerbaceousVegetation,SeaLake,0.9999488592147828,0.9690653085708618,"ResNet-18, ViT-S/16"
+88,Forest/Forest_383.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.9999896287918092,0.9998586177825928,"ResNet-18, ViT-S/16"
+89,Pasture/Pasture_1628.jpg,q6,cheng2020-attn,Pasture,Pasture,SeaLake,0.9999864101409912,0.8269848227500916,ViT-S/16
+90,Forest/Forest_2969.jpg,q6,cheng2020-attn,Forest,Forest,SeaLake,0.99997079372406,1.0,"ResNet-18, ViT-S/16"

@@ -1,0 +1,10 @@
+Image: Pasture_1212
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: Pasture
+Original Prediction: Pasture
+Compressed Prediction: AnnualCrop
+Original Confidence: 0.9998
+Compressed Confidence: 0.5682
+Confidence Drop: 0.4316

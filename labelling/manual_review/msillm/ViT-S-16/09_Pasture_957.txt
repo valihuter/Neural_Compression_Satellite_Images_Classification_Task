@@ -1,0 +1,10 @@
+Image: Pasture_957
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: Pasture
+Original Prediction: Pasture
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9960
+Compressed Confidence: 0.6582
+Confidence Drop: 0.3378

@@ -1,0 +1,152 @@
+# Dataset hosting preparation (nicht committen bis fertig)
+dataset_hosting/
+dataset_export/
+archives/
+
+# Archivierte/ungenutzte Skripte
+cloud-gpu/archive/
+scripts/archive/
+# scripts/analysis/
+
+# results
+results/pdf
+results/png
+results/md
+
+# Literatur und Notizen
+background/allerlei/
+background/slides/
+docs/
+
+# PROTOCOL.md
+docs/berichte/
+docs/expose/
+
+#helpers
+reorganize_scripts.py
+
+# Workpackages
+WP/
+
+# GPU-Konfiguration
+# Dockerfile
+# cloud-gpu/
+
+
+# Large datasets and outputs
+
+data/ 
+
+logs/
+*.log
+
+# Temporary files
+files/
+test_outputs/
+
+# Images and documents (large binaries)
+*.jpg
+*.png
+*.tif
+*.pdf
+*.gif
+*.svg
+*.jpeg
+*.tiff
+
+# Large datasets
+data/
+data/raw/
+data/processed/sentinel2/
+data/processed/landsat/
+*.tif
+*.tiff
+*.hdf
+*.nc
+*.h5
+
+# Trained models & checkpoints
+models/checkpoints/
+models/trained/
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Experiment results & logs
+results/experiments/
+results/plots/
+results/tensorboard/
+wandb/
+mlruns/
+lightning_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Config files with sensitive info
+config/secrets.yaml
+config/api_keys.yaml
+*.key
+*.pem
+
+# Large compressed files
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Temporary files
+temp/
+tmp/
+cache/
+

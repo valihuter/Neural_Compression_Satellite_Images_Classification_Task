@@ -1,0 +1,10 @@
+Image: AnnualCrop_831
+Model: ResNet-18
+Codec: jpeg_ai
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9984
+Compressed Confidence: 0.4183
+Confidence Drop: 0.5801

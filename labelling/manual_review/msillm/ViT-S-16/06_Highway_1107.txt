@@ -1,0 +1,10 @@
+Image: Highway_1107
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: Highway
+Original Prediction: Highway
+Compressed Prediction: Industrial
+Original Confidence: 1.0000
+Compressed Confidence: 0.6321
+Confidence Drop: 0.3679

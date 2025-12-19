@@ -1,0 +1,183 @@
+{
+  "total_images": 7700,
+  "codecs": {
+    "jpeg": {
+      "resnet18": {},
+      "vit": {}
+    },
+    "jpeg2000": {
+      "resnet18": {},
+      "vit": {}
+    },
+    "msillm": {
+      "resnet18": {
+        "q1": {
+          "accuracy": 95.20779220779221,
+          "misclassifications": 368
+        },
+        "q2": {
+          "accuracy": 97.0,
+          "misclassifications": 231
+        },
+        "q3": {
+          "accuracy": 97.93506493506493,
+          "misclassifications": 159
+        },
+        "q4": {
+          "accuracy": 98.20779220779221,
+          "misclassifications": 137
+        },
+        "q5": {
+          "accuracy": 98.37662337662337,
+          "misclassifications": 125
+        },
+        "q6": {
+          "accuracy": 98.42857142857143,
+          "misclassifications": 120
+        }
+      },
+      "vit": {
+        "q1": {
+          "accuracy": 95.93506493506493,
+          "misclassifications": 313
+        },
+        "q2": {
+          "accuracy": 98.64935064935065,
+          "misclassifications": 103
+        },
+        "q3": {
+          "accuracy": 99.22077922077922,
+          "misclassifications": 59
+        },
+        "q4": {
+          "accuracy": 99.32467532467533,
+          "misclassifications": 51
+        },
+        "q5": {
+          "accuracy": 99.40259740259741,
+          "misclassifications": 45
+        },
+        "q6": {
+          "accuracy": 99.49350649350649,
+          "misclassifications": 39
+        }
+      }
+    },
+    "cheng2020": {
+      "resnet18": {
+        "q1": {
+          "accuracy": 82.76623376623377,
+          "misclassifications": 1326
+        },
+        "q2": {
+          "accuracy": 89.55844155844156,
+          "misclassifications": 804
+        },
+        "q3": {
+          "accuracy": 94.1038961038961,
+          "misclassifications": 453
+        },
+        "q4": {
+          "accuracy": 96.87012987012987,
+          "misclassifications": 240
+        },
+        "q5": {
+          "accuracy": 97.8961038961039,
+          "misclassifications": 162
+        },
+        "q6": {
+          "accuracy": 98.20779220779221,
+          "misclassifications": 137
+        }
+      },
+      "vit": {
+        "q1": {
+          "accuracy": 91.01298701298701,
+          "misclassifications": 692
+        },
+        "q2": {
+          "accuracy": 94.07792207792208,
+          "misclassifications": 455
+        },
+        "q3": {
+          "accuracy": 96.6103896103896,
+          "misclassifications": 261
+        },
+        "q4": {
+          "accuracy": 98.67532467532467,
+          "misclassifications": 102
+        },
+        "q5": {
+          "accuracy": 99.22077922077922,
+          "misclassifications": 59
+        },
+        "q6": {
+          "accuracy": 99.46753246753246,
+          "misclassifications": 41
+        }
+      }
+    },
+    "jpegai": {
+      "resnet18": {
+        "q1": {
+          "accuracy": 91.1948051948052,
+          "misclassifications": 677
+        },
+        "q2": {
+          "accuracy": 94.84415584415585,
+          "misclassifications": 396
+        },
+        "q3": {
+          "accuracy": 97.41558441558442,
+          "misclassifications": 198
+        },
+        "q4": {
+          "accuracy": 97.93506493506493,
+          "misclassifications": 159
+        },
+        "q5": {
+          "accuracy": 98.27272727272727,
+          "misclassifications": 133
+        },
+        "q6": {
+          "accuracy": 98.48051948051948,
+          "misclassifications": 117
+        }
+      },
+      "vit": {
+        "q1": {
+          "accuracy": 94.24675324675324,
+          "misclassifications": 443
+        },
+        "q2": {
+          "accuracy": 98.45454545454545,
+          "misclassifications": 119
+        },
+        "q3": {
+          "accuracy": 99.28571428571429,
+          "misclassifications": 54
+        },
+        "q4": {
+          "accuracy": 99.41558441558442,
+          "misclassifications": 44
+        },
+        "q5": {
+          "accuracy": 99.45454545454545,
+          "misclassifications": 42
+        },
+        "q6": {
+          "accuracy": 99.49350649350649,
+          "misclassifications": 39
+        }
+      }
+    }
+  },
+  "models": {
+    "resnet18": {
+      "total_misclassifications": 5942
+    },
+    "vit": {
+      "total_misclassifications": 2961
+    }
+  }
+}

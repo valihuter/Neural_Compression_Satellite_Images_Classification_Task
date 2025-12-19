@@ -1,0 +1,56 @@
+# Core ML/DL frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.12.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+imageio>=2.31.0
+
+# Geospatial & Remote Sensing
+rasterio>=1.3.0
+geopandas>=0.13.0
+xarray>=2023.6.0
+rioxarray>=0.15.0
+earthpy>=0.9.4
+sentinelsat>=1.2.1
+
+# Neural Compression Libraries
+# jpeg-ai  # manually
+compressai>=1.2.0  # For baseline compression models
+
+# Data Handling & Processing
+pandas>=2.0.0
+h5py>=3.9.0
+zarr>=2.16.0
+dask>=2023.6.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+wandb>=0.15.0  # Experiment tracking
+
+# Evaluation & Metrics
+torchmetrics>=1.0.0
+lpips>=0.1.4  # Perceptual metrics
+pytorch-fid>=0.3.0
+
+# Utilities & Development
+tqdm>=4.65.0
+PyYAML>=6.0
+click>=8.1.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
+black>=23.7.0  # Code formatting
+flake8>=6.0.0  # Linting
+
+# Optional: For advanced features
+# timm>=0.9.0  # Pre-trained models
+# einops>=0.6.0  # Tensor operations
+# hydra-core>=1.3.0  # Configuration management

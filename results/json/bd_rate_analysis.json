@@ -1,0 +1,33 @@
+{
+  "reference": "JPEG",
+  "comparisons": {
+    "ResNet": {
+      "Cheng2020": {
+        "bd_rate": 18.58,
+        "interpretation": "worse"
+      },
+      "MS-ILLM": {
+        "bd_rate": -79.36,
+        "interpretation": "significantly better"
+      },
+      "JPEG-AI": {
+        "bd_rate": -28.23,
+        "interpretation": "significantly better"
+      }
+    },
+    "ViT": {
+      "Cheng2020": {
+        "bd_rate": 7.05,
+        "interpretation": "worse"
+      },
+      "MS-ILLM": {
+        "bd_rate": -74.92,
+        "interpretation": "significantly better"
+      },
+      "JPEG-AI": {
+        "bd_rate": -34.64,
+        "interpretation": "significantly better"
+      }
+    }
+  }
+}

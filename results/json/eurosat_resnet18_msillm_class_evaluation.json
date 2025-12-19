@@ -1,0 +1,696 @@
+{
+  "codec": "msillm",
+  "dataset": "EuroSAT",
+  "split": "test",
+  "num_test_images": 4050,
+  "models": {
+    "ResNet-18": {
+      "q1": {
+        "accuracy": 70.81,
+        "total_correct": 2868,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 80.0,
+            "correct": 360,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 86.67,
+            "correct": 390,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 79.33,
+            "correct": 357,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 45.33,
+            "correct": 170,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 88.8,
+            "correct": 333,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 23.0,
+            "correct": 69,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 53.33,
+            "correct": 200,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 67.78,
+            "correct": 305,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 66.4,
+            "correct": 249,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 96.67,
+            "correct": 435,
+            "total": 450
+          }
+        }
+      },
+      "q2": {
+        "accuracy": 79.8,
+        "total_correct": 3232,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 92.22,
+            "correct": 415,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 91.11,
+            "correct": 410,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 85.56,
+            "correct": 385,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 56.27,
+            "correct": 211,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 91.47,
+            "correct": 343,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 42.33,
+            "correct": 127,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 74.93,
+            "correct": 281,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 68.22,
+            "correct": 307,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 82.4,
+            "correct": 309,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 98.67,
+            "correct": 444,
+            "total": 450
+          }
+        }
+      },
+      "q3": {
+        "accuracy": 88.86,
+        "total_correct": 3599,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 96.0,
+            "correct": 432,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 96.44,
+            "correct": 434,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 88.67,
+            "correct": 399,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 75.2,
+            "correct": 282,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 94.93,
+            "correct": 356,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 62.33,
+            "correct": 187,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 85.6,
+            "correct": 321,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 92.67,
+            "correct": 417,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 86.67,
+            "correct": 325,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          }
+        }
+      },
+      "q4": {
+        "accuracy": 94.22,
+        "total_correct": 3816,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 96.89,
+            "correct": 436,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 98.0,
+            "correct": 441,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 92.44,
+            "correct": 416,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 86.4,
+            "correct": 324,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 97.07,
+            "correct": 364,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 87.33,
+            "correct": 262,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 91.73,
+            "correct": 344,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 95.11,
+            "correct": 428,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 94.93,
+            "correct": 356,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 98.89,
+            "correct": 445,
+            "total": 450
+          }
+        }
+      },
+      "q5": {
+        "accuracy": 95.43,
+        "total_correct": 3865,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 96.44,
+            "correct": 434,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 94.44,
+            "correct": 425,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 90.4,
+            "correct": 339,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 98.67,
+            "correct": 370,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 88.33,
+            "correct": 265,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 90.67,
+            "correct": 340,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 98.22,
+            "correct": 442,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 95.47,
+            "correct": 358,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          }
+        }
+      },
+      "q6": {
+        "accuracy": 96.42,
+        "total_correct": 3905,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 96.89,
+            "correct": 436,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 98.89,
+            "correct": 445,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 95.78,
+            "correct": 431,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 94.13,
+            "correct": 353,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 98.13,
+            "correct": 368,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 90.67,
+            "correct": 272,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 92.27,
+            "correct": 346,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 96.53,
+            "correct": 362,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          }
+        }
+      }
+    },
+    "ViT-S/16": {
+      "q1": {
+        "accuracy": 64.64,
+        "total_correct": 2618,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 75.33,
+            "correct": 339,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 84.22,
+            "correct": 379,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 90.67,
+            "correct": 408,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 34.13,
+            "correct": 128,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 85.07,
+            "correct": 319,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 22.0,
+            "correct": 66,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 40.0,
+            "correct": 150,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 51.11,
+            "correct": 230,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 42.67,
+            "correct": 160,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 97.56,
+            "correct": 439,
+            "total": 450
+          }
+        }
+      },
+      "q2": {
+        "accuracy": 76.42,
+        "total_correct": 3095,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 90.22,
+            "correct": 406,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 84.22,
+            "correct": 379,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 93.11,
+            "correct": 419,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 50.4,
+            "correct": 189,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 90.67,
+            "correct": 340,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 33.33,
+            "correct": 100,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 56.27,
+            "correct": 211,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 79.56,
+            "correct": 358,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 65.6,
+            "correct": 246,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.33,
+            "correct": 447,
+            "total": 450
+          }
+        }
+      },
+      "q3": {
+        "accuracy": 85.21,
+        "total_correct": 3451,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 94.67,
+            "correct": 426,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 94.0,
+            "correct": 423,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 95.11,
+            "correct": 428,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 69.07,
+            "correct": 259,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 92.0,
+            "correct": 345,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 50.67,
+            "correct": 152,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 71.47,
+            "correct": 268,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 92.44,
+            "correct": 416,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 76.8,
+            "correct": 288,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.11,
+            "correct": 446,
+            "total": 450
+          }
+        }
+      },
+      "q4": {
+        "accuracy": 93.06,
+        "total_correct": 3769,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 97.33,
+            "correct": 438,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 95.11,
+            "correct": 428,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 97.56,
+            "correct": 439,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 81.87,
+            "correct": 307,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 96.0,
+            "correct": 360,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 82.33,
+            "correct": 247,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 84.8,
+            "correct": 318,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 98.67,
+            "correct": 444,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 90.13,
+            "correct": 338,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 100.0,
+            "correct": 450,
+            "total": 450
+          }
+        }
+      },
+      "q5": {
+        "accuracy": 96.74,
+        "total_correct": 3918,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 97.78,
+            "correct": 440,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 99.56,
+            "correct": 448,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 98.67,
+            "correct": 444,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 89.33,
+            "correct": 335,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 98.93,
+            "correct": 371,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 93.0,
+            "correct": 279,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 93.87,
+            "correct": 352,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 97.56,
+            "correct": 439,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 96.27,
+            "correct": 361,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 99.78,
+            "correct": 449,
+            "total": 450
+          }
+        }
+      },
+      "q6": {
+        "accuracy": 98.42,
+        "total_correct": 3986,
+        "total_processed": 4050,
+        "class_results": {
+          "AnnualCrop": {
+            "accuracy": 97.33,
+            "correct": 438,
+            "total": 450
+          },
+          "Forest": {
+            "accuracy": 98.67,
+            "correct": 444,
+            "total": 450
+          },
+          "HerbaceousVegetation": {
+            "accuracy": 99.56,
+            "correct": 448,
+            "total": 450
+          },
+          "Highway": {
+            "accuracy": 97.6,
+            "correct": 366,
+            "total": 375
+          },
+          "Industrial": {
+            "accuracy": 99.2,
+            "correct": 372,
+            "total": 375
+          },
+          "Pasture": {
+            "accuracy": 96.0,
+            "correct": 288,
+            "total": 300
+          },
+          "PermanentCrop": {
+            "accuracy": 96.27,
+            "correct": 361,
+            "total": 375
+          },
+          "Residential": {
+            "accuracy": 99.78,
+            "correct": 449,
+            "total": 450
+          },
+          "River": {
+            "accuracy": 98.67,
+            "correct": 370,
+            "total": 375
+          },
+          "SeaLake": {
+            "accuracy": 100.0,
+            "correct": 450,
+            "total": 450
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+    \centering
+    \caption{EuroSAT: Misclassification statistics by codec and quality level (both models combined, 4,050 images).}
+    \label{tab:app-misclass-eurosat}
+    \tiny
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        \textbf{Codec / Quality} & \textbf{q1} & \textbf{q2} & \textbf{q3} & \textbf{q4} & \textbf{q5} & \textbf{q6} \\
+        \midrule
+        JPEG & 4,579 & 2,710 & 1,321 & 524 & 75 & 17 \\
+        \quad \textit{$\Delta$ Acc} & 56.5\% & 33.5\% & 16.3\% & 6.5\% & 0.9\% & 0.2\% \\
+        \midrule
+        JPEG2000 & 3,576 & 3,342 & 2,276 & 583 & 0 & 0 \\
+        \quad \textit{$\Delta$ Acc} & 88.3\% & 82.5\% & 56.2\% & 14.4\% & 0.0\% & 0.0\% \\
+        \midrule
+        Cheng2020-attn & 5,322 & 4,837 & 4,048 & 2,959 & 2,062 & 1,354 \\
+        \quad \textit{$\Delta$ Acc} & 65.7\% & 59.7\% & 50.0\% & 36.5\% & 25.5\% & 16.7\% \\
+        \midrule
+        MS-ILLM & 1,421 & 944 & 588 & 270 & 121 & 53 \\
+        \quad \textit{$\Delta$ Acc} & 35.1\% & 23.3\% & 14.5\% & 6.7\% & 3.0\% & 1.3\% \\
+        \midrule
+        JPEG-AI & 1,020 & 686 & 551 & 490 & 435 & 396 \\
+        \quad \textit{$\Delta$ Acc} & 25.2\% & 16.9\% & 13.6\% & 12.1\% & 10.7\% & 9.8\% \\
+        \bottomrule
+    \end{tabular}
+\end{table}

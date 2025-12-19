@@ -1,0 +1,10 @@
+Image: AnnualCrop_1525
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: Pasture
+Original Confidence: 0.9952
+Compressed Confidence: 0.5481
+Confidence Drop: 0.4472

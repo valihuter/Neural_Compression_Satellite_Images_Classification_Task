@@ -1,0 +1,10 @@
+Image: Forest_2134
+Model: ResNet-18
+Codec: jpeg_ai
+Quality: q6
+True Class: Forest
+Original Prediction: Forest
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9996
+Compressed Confidence: 0.4650
+Confidence Drop: 0.5346

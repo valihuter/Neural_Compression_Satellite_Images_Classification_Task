@@ -1,0 +1,10 @@
+Image: Forest_2457
+Model: ViT-S/16
+Codec: jpeg_ai
+Quality: q6
+True Class: Forest
+Original Prediction: Forest
+Compressed Prediction: SeaLake
+Original Confidence: 1.0000
+Compressed Confidence: 0.4034
+Confidence Drop: 0.5966

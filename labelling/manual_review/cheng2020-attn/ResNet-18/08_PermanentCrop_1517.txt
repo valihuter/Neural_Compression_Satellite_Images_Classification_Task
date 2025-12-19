@@ -1,0 +1,10 @@
+Image: PermanentCrop_1517
+Model: ResNet-18
+Codec: cheng2020-attn
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: AnnualCrop
+Original Confidence: 0.9988
+Compressed Confidence: 0.4966
+Confidence Drop: 0.5021

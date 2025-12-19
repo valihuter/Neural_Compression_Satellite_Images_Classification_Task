@@ -1,0 +1,26 @@
+{
+  "q1": {
+    "resnet": 2580,
+    "vit": 2758,
+    "total": 5338,
+    "processed": 4050
+  },
+  "q2": {
+    "resnet": 2336,
+    "vit": 2522,
+    "total": 4858,
+    "processed": 4050
+  },
+  "q3": {
+    "resnet": 1968,
+    "vit": 2106,
+    "total": 4074,
+    "processed": 4050
+  },
+  "q4": {
+    "resnet": 1403,
+    "vit": 1587,
+    "total": 2990,
+    "processed": 4050
+  }
+}

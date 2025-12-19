@@ -1,0 +1,230 @@
+{
+  "q1": {
+    "resnet18": {
+      "accuracy": 91.1948051948052,
+      "class_accuracies": {
+        "beach": 98.71428571428571,
+        "circular_farmland": 97.57142857142857,
+        "dense_residential": 75.71428571428571,
+        "forest": 84.57142857142857,
+        "freeway": 91.71428571428571,
+        "industrial_area": 98.57142857142857,
+        "lake": 96.71428571428571,
+        "meadow": 98.0,
+        "medium_residential": 76.71428571428571,
+        "rectangular_farmland": 92.42857142857143,
+        "river": 92.42857142857143
+      },
+      "total_images": 7700,
+      "correct_predictions": 7022
+    },
+    "vit": {
+      "accuracy": 94.24675324675324,
+      "class_accuracies": {
+        "beach": 98.14285714285714,
+        "circular_farmland": 98.57142857142857,
+        "dense_residential": 94.28571428571429,
+        "forest": 83.85714285714286,
+        "freeway": 93.42857142857143,
+        "industrial_area": 99.42857142857143,
+        "lake": 98.42857142857143,
+        "meadow": 96.85714285714286,
+        "medium_residential": 78.14285714285714,
+        "rectangular_farmland": 96.42857142857143,
+        "river": 99.14285714285714
+      },
+      "total_images": 7700,
+      "correct_predictions": 7257
+    }
+  },
+  "q2": {
+    "resnet18": {
+      "accuracy": 94.84415584415585,
+      "class_accuracies": {
+        "beach": 98.28571428571429,
+        "circular_farmland": 99.14285714285714,
+        "dense_residential": 86.14285714285714,
+        "forest": 96.71428571428571,
+        "freeway": 96.0,
+        "industrial_area": 98.85714285714286,
+        "lake": 97.85714285714286,
+        "meadow": 99.28571428571429,
+        "medium_residential": 80.85714285714286,
+        "rectangular_farmland": 95.57142857142857,
+        "river": 94.57142857142857
+      },
+      "total_images": 7700,
+      "correct_predictions": 7303
+    },
+    "vit": {
+      "accuracy": 98.45454545454545,
+      "class_accuracies": {
+        "beach": 99.57142857142857,
+        "circular_farmland": 99.85714285714286,
+        "dense_residential": 98.0,
+        "forest": 98.42857142857143,
+        "freeway": 99.0,
+        "industrial_area": 99.71428571428571,
+        "lake": 99.42857142857143,
+        "meadow": 99.42857142857143,
+        "medium_residential": 91.14285714285714,
+        "rectangular_farmland": 99.0,
+        "river": 99.42857142857143
+      },
+      "total_images": 7700,
+      "correct_predictions": 7581
+    }
+  },
+  "q3": {
+    "resnet18": {
+      "accuracy": 97.41558441558442,
+      "class_accuracies": {
+        "beach": 99.28571428571429,
+        "circular_farmland": 99.71428571428571,
+        "dense_residential": 94.14285714285714,
+        "forest": 97.28571428571429,
+        "freeway": 96.57142857142857,
+        "industrial_area": 99.42857142857143,
+        "lake": 99.14285714285714,
+        "meadow": 99.14285714285714,
+        "medium_residential": 91.14285714285714,
+        "rectangular_farmland": 98.0,
+        "river": 97.71428571428571
+      },
+      "total_images": 7700,
+      "correct_predictions": 7501
+    },
+    "vit": {
+      "accuracy": 99.28571428571429,
+      "class_accuracies": {
+        "beach": 99.57142857142857,
+        "circular_farmland": 100.0,
+        "dense_residential": 98.85714285714286,
+        "forest": 99.14285714285714,
+        "freeway": 99.71428571428571,
+        "industrial_area": 99.71428571428571,
+        "lake": 99.71428571428571,
+        "meadow": 99.0,
+        "medium_residential": 97.42857142857143,
+        "rectangular_farmland": 99.57142857142857,
+        "river": 99.42857142857143
+      },
+      "total_images": 7700,
+      "correct_predictions": 7645
+    }
+  },
+  "q4": {
+    "resnet18": {
+      "accuracy": 97.93506493506493,
+      "class_accuracies": {
+        "beach": 99.14285714285714,
+        "circular_farmland": 99.28571428571429,
+        "dense_residential": 96.0,
+        "forest": 97.71428571428571,
+        "freeway": 98.28571428571429,
+        "industrial_area": 99.42857142857143,
+        "lake": 99.28571428571429,
+        "meadow": 99.0,
+        "medium_residential": 91.42857142857143,
+        "rectangular_farmland": 98.85714285714286,
+        "river": 98.85714285714286
+      },
+      "total_images": 7700,
+      "correct_predictions": 7541
+    },
+    "vit": {
+      "accuracy": 99.41558441558442,
+      "class_accuracies": {
+        "beach": 99.57142857142857,
+        "circular_farmland": 100.0,
+        "dense_residential": 98.42857142857143,
+        "forest": 99.28571428571429,
+        "freeway": 100.0,
+        "industrial_area": 99.71428571428571,
+        "lake": 99.71428571428571,
+        "meadow": 99.42857142857143,
+        "medium_residential": 98.42857142857143,
+        "rectangular_farmland": 99.42857142857143,
+        "river": 99.57142857142857
+      },
+      "total_images": 7700,
+      "correct_predictions": 7655
+    }
+  },
+  "q5": {
+    "resnet18": {
+      "accuracy": 98.27272727272727,
+      "class_accuracies": {
+        "beach": 99.42857142857143,
+        "circular_farmland": 99.57142857142857,
+        "dense_residential": 96.71428571428571,
+        "forest": 97.28571428571429,
+        "freeway": 98.42857142857143,
+        "industrial_area": 99.42857142857143,
+        "lake": 99.42857142857143,
+        "meadow": 99.28571428571429,
+        "medium_residential": 93.28571428571429,
+        "rectangular_farmland": 99.14285714285714,
+        "river": 99.0
+      },
+      "total_images": 7700,
+      "correct_predictions": 7567
+    },
+    "vit": {
+      "accuracy": 99.45454545454545,
+      "class_accuracies": {
+        "beach": 99.71428571428571,
+        "circular_farmland": 100.0,
+        "dense_residential": 98.42857142857143,
+        "forest": 99.14285714285714,
+        "freeway": 99.85714285714286,
+        "industrial_area": 99.57142857142857,
+        "lake": 99.71428571428571,
+        "meadow": 99.42857142857143,
+        "medium_residential": 98.85714285714286,
+        "rectangular_farmland": 99.57142857142857,
+        "river": 99.71428571428571
+      },
+      "total_images": 7700,
+      "correct_predictions": 7658
+    }
+  },
+  "q6": {
+    "resnet18": {
+      "accuracy": 98.48051948051948,
+      "class_accuracies": {
+        "beach": 99.14285714285714,
+        "circular_farmland": 99.42857142857143,
+        "dense_residential": 97.85714285714286,
+        "forest": 97.28571428571429,
+        "freeway": 98.28571428571429,
+        "industrial_area": 99.42857142857143,
+        "lake": 99.28571428571429,
+        "meadow": 99.42857142857143,
+        "medium_residential": 94.71428571428571,
+        "rectangular_farmland": 99.28571428571429,
+        "river": 99.14285714285714
+      },
+      "total_images": 7700,
+      "correct_predictions": 7583
+    },
+    "vit": {
+      "accuracy": 99.49350649350649,
+      "class_accuracies": {
+        "beach": 99.71428571428571,
+        "circular_farmland": 100.0,
+        "dense_residential": 98.71428571428571,
+        "forest": 99.0,
+        "freeway": 99.85714285714286,
+        "industrial_area": 99.42857142857143,
+        "lake": 99.85714285714286,
+        "meadow": 99.57142857142857,
+        "medium_residential": 99.0,
+        "rectangular_farmland": 99.57142857142857,
+        "river": 99.71428571428571
+      },
+      "total_images": 7700,
+      "correct_predictions": 7661
+    }
+  }
+}

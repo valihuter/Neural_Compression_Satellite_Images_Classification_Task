@@ -1,0 +1,10 @@
+Image: Pasture_1578
+Model: ResNet-18
+Codec: cheng2020-attn
+Quality: q6
+True Class: Pasture
+Original Prediction: Pasture
+Compressed Prediction: SeaLake
+Original Confidence: 0.9999
+Compressed Confidence: 0.4920
+Confidence Drop: 0.5078

@@ -1,0 +1,10 @@
+Image: Highway_444
+Model: ResNet-18
+Codec: msillm
+Quality: q6
+True Class: Highway
+Original Prediction: Highway
+Compressed Prediction: River
+Original Confidence: 0.8812
+Compressed Confidence: 0.3673
+Confidence Drop: 0.5139

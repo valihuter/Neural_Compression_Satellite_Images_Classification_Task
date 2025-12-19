@@ -1,0 +1,10 @@
+Image: AnnualCrop_2024
+Model: ViT-S/16
+Codec: jpeg_ai
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: SeaLake
+Original Confidence: 0.9998
+Compressed Confidence: 0.3742
+Confidence Drop: 0.6256

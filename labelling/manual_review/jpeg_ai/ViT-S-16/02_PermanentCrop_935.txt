@@ -1,0 +1,10 @@
+Image: PermanentCrop_935
+Model: ViT-S/16
+Codec: jpeg_ai
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: Residential
+Original Confidence: 1.0000
+Compressed Confidence: 0.3840
+Confidence Drop: 0.6159

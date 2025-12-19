@@ -1,0 +1,122 @@
+{
+  "codec": "msillm",
+  "paper": "Improving Statistical Fidelity for Neural Image Compression (ICML 2023)",
+  "type": "GAN-based perceptual compression",
+  "baseline_accuracy": 97.65,
+  "quality_levels": {
+    "q1": {
+      "accuracy": 71.68518518518519,
+      "correct": 19355,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 81.96666666666667,
+        "Forest": 89.16666666666667,
+        "HerbaceousVegetation": 79.8,
+        "Highway": 44.28,
+        "Industrial": 89.48,
+        "Pasture": 22.0,
+        "PermanentCrop": 57.04,
+        "Residential": 67.16666666666667,
+        "River": 66.4,
+        "SeaLake": 98.06666666666666
+      },
+      "target_bpp": 0.035,
+      "accuracy_drop": 25.964814814814815
+    },
+    "q2": {
+      "accuracy": 81.18888888888888,
+      "correct": 21921,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 93.66666666666667,
+        "Forest": 93.23333333333333,
+        "HerbaceousVegetation": 85.46666666666667,
+        "Highway": 58.48,
+        "Industrial": 92.88,
+        "Pasture": 44.35,
+        "PermanentCrop": 76.96,
+        "Residential": 69.03333333333333,
+        "River": 84.4,
+        "SeaLake": 99.13333333333334
+      },
+      "target_bpp": 0.07,
+      "accuracy_drop": 16.461111111111123
+    },
+    "q3": {
+      "accuracy": 90.1037037037037,
+      "correct": 24328,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 96.36666666666666,
+        "Forest": 97.3,
+        "HerbaceousVegetation": 89.9,
+        "Highway": 77.64,
+        "Industrial": 95.6,
+        "Pasture": 63.15,
+        "PermanentCrop": 87.96,
+        "Residential": 92.8,
+        "River": 90.6,
+        "SeaLake": 99.3
+      },
+      "target_bpp": 0.14,
+      "accuracy_drop": 7.546296296296305
+    },
+    "q4": {
+      "accuracy": 95.2925925925926,
+      "correct": 25729,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 97.63333333333334,
+        "Forest": 98.33333333333333,
+        "HerbaceousVegetation": 93.66666666666667,
+        "Highway": 89.52,
+        "Industrial": 97.16,
+        "Pasture": 88.8,
+        "PermanentCrop": 93.12,
+        "Residential": 96.86666666666666,
+        "River": 95.32,
+        "SeaLake": 99.33333333333333
+      },
+      "target_bpp": 0.3,
+      "accuracy_drop": 2.3574074074074076
+    },
+    "q5": {
+      "accuracy": 96.88888888888889,
+      "correct": 26160,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 98.16666666666667,
+        "Forest": 99.3,
+        "HerbaceousVegetation": 96.13333333333334,
+        "Highway": 94.16,
+        "Industrial": 98.36,
+        "Pasture": 90.7,
+        "PermanentCrop": 94.36,
+        "Residential": 98.23333333333333,
+        "River": 97.48,
+        "SeaLake": 99.4
+      },
+      "target_bpp": 0.45,
+      "accuracy_drop": 0.76111111111112
+    },
+    "q6": {
+      "accuracy": 97.75185185185185,
+      "correct": 26393,
+      "total": 27000,
+      "class_accuracies": {
+        "AnnualCrop": 98.16666666666667,
+        "Forest": 99.13333333333334,
+        "HerbaceousVegetation": 97.0,
+        "Highway": 97.56,
+        "Industrial": 98.44,
+        "Pasture": 92.15,
+        "PermanentCrop": 95.92,
+        "Residential": 99.43333333333334,
+        "River": 98.04,
+        "SeaLake": 99.63333333333334
+      },
+      "target_bpp": 0.9,
+      "accuracy_drop": -0.10185185185184764
+    }
+  }
+}

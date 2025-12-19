@@ -1,0 +1,10 @@
+Image: Residential_543
+Model: ResNet-18
+Codec: cheng2020-attn
+Quality: q6
+True Class: Residential
+Original Prediction: Residential
+Compressed Prediction: PermanentCrop
+Original Confidence: 0.9999
+Compressed Confidence: 0.4551
+Confidence Drop: 0.5449

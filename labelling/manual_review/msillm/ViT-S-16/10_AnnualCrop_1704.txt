@@ -1,0 +1,10 @@
+Image: AnnualCrop_1704
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: AnnualCrop
+Original Prediction: AnnualCrop
+Compressed Prediction: PermanentCrop
+Original Confidence: 0.9988
+Compressed Confidence: 0.6716
+Confidence Drop: 0.3271

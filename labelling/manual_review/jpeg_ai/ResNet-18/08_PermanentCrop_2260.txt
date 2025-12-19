@@ -1,0 +1,10 @@
+Image: PermanentCrop_2260
+Model: ResNet-18
+Codec: jpeg_ai
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: Highway
+Original Confidence: 1.0000
+Compressed Confidence: 0.4370
+Confidence Drop: 0.5630

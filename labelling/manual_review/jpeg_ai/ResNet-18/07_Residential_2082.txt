@@ -1,0 +1,10 @@
+Image: Residential_2082
+Model: ResNet-18
+Codec: jpeg_ai
+Quality: q6
+True Class: Residential
+Original Prediction: Residential
+Compressed Prediction: Industrial
+Original Confidence: 0.9952
+Compressed Confidence: 0.4302
+Confidence Drop: 0.5650

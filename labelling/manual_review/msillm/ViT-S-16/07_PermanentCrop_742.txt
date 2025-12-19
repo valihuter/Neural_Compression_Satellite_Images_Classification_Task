@@ -1,0 +1,10 @@
+Image: PermanentCrop_742
+Model: ViT-S/16
+Codec: msillm
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9998
+Compressed Confidence: 0.6465
+Confidence Drop: 0.3533

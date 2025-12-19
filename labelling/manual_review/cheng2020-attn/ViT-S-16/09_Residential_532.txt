@@ -1,0 +1,10 @@
+Image: Residential_532
+Model: ViT-S/16
+Codec: cheng2020-attn
+Quality: q6
+True Class: Residential
+Original Prediction: Residential
+Compressed Prediction: Industrial
+Original Confidence: 1.0000
+Compressed Confidence: 0.4888
+Confidence Drop: 0.5112

@@ -1,0 +1,145 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+
+% Modern sans-serif font
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Better section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+% Remove section numbering for cleaner look
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\section{Paper Summary: Neural Image Compression: Generalization, Robustness, and Spectral Biases}
+
+\subsection{Bibliographic Information}
+
+\noindent
+\textbf{Author(s):} Kelsey Lieberman, James Diffenderfer, Charles Godfrey, Bhavya Kailkhura \\[0.5em]
+\textbf{Title:} Neural Image Compression: Generalization, Robustness, and Spectral Biases \\[0.5em]
+\textbf{Venue:} Neural Compression Workshop at the 40th International Conference on Machine Learning (ICML 2023) \\[0.5em]
+\textbf{Year:} 2023 \\[0.5em]
+\textbf{DOI/Link:} \url{https://openreview.net/pdf?id=TEcYuwCS6v} \\[0.5em]
+\textbf{Code/Dataset:} CLIC-C dataset introduced, code not explicitly mentioned \\[1em]
+
+\subsection{Summary}
+
+\subsubsection{Problem Statement}
+\begin{itemize}[leftmargin=1em]
+    \item Limited understanding of out-of-distribution (OOD) robustness and generalization performance of neural image compression (NIC) methods
+    \item Lack of comprehensive datasets and tools to evaluate NIC performance in real-world deployment scenarios
+    \item Need to understand how training data properties and biases impact data-driven compression
+    \item Scalar metrics like PSNR are insufficient and sometimes misleading for evaluating compression performance
+\end{itemize}
+
+\subsubsection{Approach/Method}
+
+\noindent
+\textbf{Architecture:} Comparative evaluation framework using Fixed-Rate (FR) and Variable-Rate (VR) NIC models based on scale hyperprior architecture vs. JPEG2000 \\[0.5em]
+\textbf{Key Innovation:} First comprehensive OOD benchmark for image compression (CLIC-C) and novel spectral inspection tools using Power Spectral Density (PSD) analysis in frequency domain \\[0.5em]
+\textbf{Technical Details:} Three spectral measures: Distortion Error D, OOD Generalization Error G, OOD Robustness Error R, plus Fourier sensitivity heatmaps for perturbation analysis \\[1em]
+
+\subsubsection{Experimental Setup}
+
+\noindent
+\textbf{Datasets:} CLIC-C dataset with 15 common corruptions (snow, noise, blur, etc.) at 5 severity levels, categorized as low/medium/high frequency based on spectral content \\[0.5em]
+\textbf{Baselines:} JPEG2000 classical codec, 8 Fixed-Rate NIC models (single $\lambda$), 1 Variable-Rate NIC model (continuous $\lambda$ range) \\[0.5em]
+\textbf{Metrics:} PSNR, rate-distortion curves, spectral distortion measures D/G/R, Fourier sensitivity heatmaps \\[0.5em]
+\textbf{Hardware/Implementation:} All models trained on CLIC 2020 dataset, evaluated under three constraints: no constraint, fixed-bpp, fixed-PSNR \\[1em]
+
+\subsubsection{Results}
+
+\noindent
+\textbf{Quantitative Results:} NIC models outperform JPEG2000 on IND data for bpp $\in$ (0.1, 1.5), but show different spectral artifacts - NIC distorts high frequencies more, JPEG2000 distorts low/medium frequencies more \\[0.5em]
+\textbf{Qualitative Analysis:} All compression methods fail to generalize to high-frequency shifts, but NIC models demonstrate superior denoising capability for high-frequency corruptions compared to JPEG2000 \\[0.5em]
+\textbf{Computational Complexity:} VR NIC achieves same performance as FR NIC at low/medium bpps but FR NIC outperforms at high bpps due to expressiveness limitations \\[1em]
+
+\subsection{Evaluation \& Relevance}
+
+\subsubsection{Strengths}
+
+\begin{itemize}[leftmargin=1em]
+    \item First comprehensive OOD evaluation framework for image compression methods
+    \item Novel spectral analysis tools providing deeper insights beyond scalar PSNR metrics
+    \item Well-designed CLIC-C benchmark with frequency-categorized corruptions
+    \item Systematic comparison revealing fundamental differences between NIC and classical codecs
+    \item Important findings about frequency-specific compression artifacts and denoising capabilities
+\end{itemize}
+
+\subsubsection{Limitations}
+\begin{itemize}[leftmargin=1em]
+    \item Limited to CLIC dataset domain - may not generalize to other image types
+    \item Only evaluates one classical codec (JPEG2000) and one NIC architecture type
+    \item Workshop paper - limited experimental scope and depth compared to full conference papers
+    \item No investigation of training strategies to improve OOD robustness
+    \item Fourier sensitivity heatmaps require clean data availability
+\end{itemize}
+
+\subsubsection{Reproducibility}
+\begin{itemize}[leftmargin=1em]
+    \item CLIC-C dataset methodology clearly described
+    \item Mathematical formulations provided for all spectral measures
+    \item Uses standard corruption techniques from existing OOD literature
+    \item Clear experimental setup description with constraint types
+\end{itemize}
+
+\subsubsection{Relevance to My Work}
+
+\noindent
+\textbf{Relevance Score:} 5/5 \\[0.5em]
+\textbf{Application:} relevant for neural compression robustness evaluation, provides essential framework for assessing compression performance on satellite imagery with various environmental corruptions and domain shifts \\[0.5em]
+\textbf{Potential Use:} OOD evaluation methodology, spectral analysis tools for compression artifacts, benchmark design principles, frequency-domain understanding of compression behavior \\[1em]
+
+\subsection{Notes}
+
+\subsubsection{Key Equations/Concepts}
+
+Spectral Measure of Distortion Error:
+\begin{equation}
+D(C, \mathcal{X}) := \frac{1}{N} \sum_{k=1}^{N} PSD(X_k - C(X_k))
+\end{equation}
+
+OOD Generalization Error (corrupted vs. corrupted compressed):
+\begin{equation}
+G(C, \mathcal{X}, c) := \frac{1}{N} \sum_{k=1}^{N} PSD(c(X_k) - C(c(X_k)))
+\end{equation}
+
+OOD Robustness Error (clean vs. corrupted compressed):
+\begin{equation}
+R(C, \mathcal{X}, c) := \frac{1}{N} \sum_{k=1}^{N} PSD(X_k - C(c(X_k)))
+\end{equation}
+
+\subsubsection{Implementation Details}
+
+Power Spectral Density computed using Fast Fourier Transform (FFT) followed by shift operation and absolute value. Corruptions categorized by frequency content: Low (snow, fog, brightness), Medium (blur, elastic transform, pixelate), High (Gaussian/shot/impulse noise). Evaluation under three constraint scenarios enables practical deployment comparison.
+
+\subsubsection{Related Work Connections}
+
+Extends OOD evaluation techniques from classification/detection to compression domain. Builds on spectral analysis methods for neural network robustness. Connects to adversarial example denoising research where JPEG was previously used. Provides foundation for understanding compression artifacts in frequency domain.
+
+\subsubsection{Future Work Ideas}
+
+Training strategies to improve OOD robustness of NIC models. Extension to other image domains (medical, satellite, scientific). Investigation of perceptual quality metrics beyond PSNR. Development of frequency-aware compression losses. Application to video compression and temporal artifacts. Cross-domain compression evaluation.
+
+\vspace{2em}
+\noindent
+\textbf{Date Read:} [Date] \hfill \textbf{Tags:} neural-compression, ood-evaluation, spectral-analysis, robustness, generalization, frequency-domain, compression-artifacts, psd-analysis, benchmark
+
+\vspace{1em}
+\noindent\rule{\linewidth}{0.4pt}
+\vspace{1em}
+
+\end{document}

@@ -1,0 +1,10 @@
+Image: Pasture_722
+Model: ViT-S/16
+Codec: cheng2020-attn
+Quality: q6
+True Class: Pasture
+Original Prediction: Pasture
+Compressed Prediction: AnnualCrop
+Original Confidence: 0.9991
+Compressed Confidence: 0.4921
+Confidence Drop: 0.5070

@@ -1,0 +1,10 @@
+Image: PermanentCrop_545
+Model: ViT-S/16
+Codec: cheng2020-attn
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 1.0000
+Compressed Confidence: 0.4438
+Confidence Drop: 0.5561

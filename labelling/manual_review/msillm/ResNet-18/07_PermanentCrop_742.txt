@@ -1,0 +1,10 @@
+Image: PermanentCrop_742
+Model: ResNet-18
+Codec: msillm
+Quality: q6
+True Class: PermanentCrop
+Original Prediction: PermanentCrop
+Compressed Prediction: HerbaceousVegetation
+Original Confidence: 0.9997
+Compressed Confidence: 0.5486
+Confidence Drop: 0.4511

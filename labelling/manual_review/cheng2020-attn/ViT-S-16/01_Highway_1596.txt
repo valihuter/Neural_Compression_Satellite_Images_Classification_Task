@@ -1,0 +1,10 @@
+Image: Highway_1596
+Model: ViT-S/16
+Codec: cheng2020-attn
+Quality: q6
+True Class: Highway
+Original Prediction: Highway
+Compressed Prediction: SeaLake
+Original Confidence: 0.9994
+Compressed Confidence: 0.4314
+Confidence Drop: 0.5681

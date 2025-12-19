@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\caption{Classification accuracy (\%) at standardized bitrates. Values are linearly interpolated from measured data points. Cells marked with ``---'' indicate bitrates outside the codec's operating range.}
+\label{tab:accuracy-at-bpp}
+\begin{tabular}{lccccc}
+\toprule
+BPP & JPEG & JPEG2000 & Cheng2020 & MS-ILLM & JPEG-AI \\
+\midrule
+\multicolumn{6}{l}{\textit{ResNet-18}} \\
+0.10 & --- & 13.5 & --- & 85.0 & --- \\
+0.15 & --- & 17.3 & 37.1 & 90.4 & 78.6 \\
+0.25 & --- & 41.8 & 48.6 & 93.7 & 83.0 \\
+0.35 & 68.5 & 71.3 & 59.7 & 95.8 & 84.0 \\
+0.50 & 86.8 & 92.3 & 72.5 & 97.0 & 85.5 \\
+0.75 & 94.3 & 98.8 & --- & 97.5 & 86.7 \\
+1.00 & 96.9 & 98.9 & --- & --- & 87.8 \\
+\midrule
+\multicolumn{6}{l}{\textit{ViT-S/16}} \\
+0.10 & --- & 11.4 & --- & 80.2 & --- \\
+0.15 & --- & 17.2 & 34.4 & 85.7 & 75.9 \\
+0.25 & --- & 43.5 & 46.7 & 90.6 & 82.8 \\
+0.35 & 64.7 & 70.8 & 57.0 & 94.3 & 84.1 \\
+0.50 & 85.3 & 92.5 & 69.4 & 96.9 & 86.1 \\
+0.75 & 96.1 & 99.7 & --- & 97.9 & 87.6 \\
+1.00 & 99.2 & 99.7 & --- & --- & 89.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

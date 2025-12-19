@@ -1,0 +1,8 @@
+{
+  "test_accuracy": 97.65432098765432,
+  "best_val_accuracy": 97.60493827160494,
+  "model": "ResNet18",
+  "epochs": 20,
+  "batch_size": 64,
+  "learning_rate": 0.001
+}

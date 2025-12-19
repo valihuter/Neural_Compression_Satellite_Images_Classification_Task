@@ -1,0 +1,19 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Classification Accuracy (\%) at Different Quality Levels}
+\label{tab:codec_comparison}
+\begin{tabular}{l|c|cccccc}
+\toprule
+\textbf{Codec} & \textbf{Type} & \textbf{q1} & \textbf{q2} & \textbf{q3} & \textbf{q4} & \textbf{q5} & \textbf{q6} \\
+\midrule
+JPEG-AI & ISO Standard & 77.7 & 83.0 & 85.5 & 86.7 & 87.8 & 88.1 \\
+MS-ILLM & GAN-based & 71.7 & 81.2 & 90.1 & 95.3 & 96.9 & 97.8 \\
+Cheng2020 & MSE-based & 34.3 & 40.4 & 49.6 & 63.7 & 74.8 & 82.5 \\
+JPEG2000 & Wavelet & 14.0 & 17.9 & 41.1 & 84.9 & 97.7 & 97.7 \\
+JPEG & DCT & 47.0 & 67.1 & 84.0 & 91.6 & 96.6 & 97.3 \\
+\midrule
+Baseline & ResNet18 & \multicolumn{6}{c}{97.65} \\
+\bottomrule
+\end{tabular}
+\end{table}
