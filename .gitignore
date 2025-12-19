@@ -52,6 +52,17 @@ test_outputs/
 *.gif
 *.svg
 *.jpeg
+
+# LaTeX temporary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.log
+*.toc
+*.bbl
+*.blg
 *.tiff
 
 # Large datasets
